@@ -1,0 +1,15 @@
+Gazebo multi-robot simulator, version 11.10.2
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+
+(1676801455 968076735) [Msg] Waiting for master.
+(1676801455 968588008) Failed to create connection to remote host[localhost:11345]
+(1676801456 973381162) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
+(1676801456 973588069) [Msg] Publicized address: 192.168.11.42
+(1676801456 974434727) Loaded .ini file from: "/home/masaki/.gazebo/gui.ini"
+(1676801457 106940906) [Wrn] [GuiIface.cc:120] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-masaki'
+(1676801458 283061210) No spacenav daemon found. Spacenav functionality is disabled
+(1676801749 591482329) [Wrn] [Publisher.cc:135] Queue limit reached for topic /gazebo/default/user_camera/pose, deleting message. This warning is printed only once.
+(1676816142 736316947) [Wrn] [Event.cc:61] Warning: Deleting a connection right after creation. Make sure to save the ConnectionPtr from a Connect call

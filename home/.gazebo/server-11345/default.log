@@ -1,0 +1,14 @@
+Gazebo multi-robot simulator, version 11.10.2
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+
+(1676801455 993683076) [Msg] Waiting for master.
+(1676801456 3808216) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
+(1676801456 3828122) [Msg] Publicized address: 192.168.11.42
+(1676801456 673900062) [Msg] Loading world file [/usr/share/gazebo-11/worlds/empty.world]
+(1676801456 764871631) [Err] [OpenAL.cc:84] Unable to open audio device[default]
+ Audio will be disabled.
+(1676801456 772435910) Init world[default]
+(1676825822 838673232) [Wrn] [Publisher.cc:135] Queue limit reached for topic /gazebo/default/physics/contacts, deleting message. This warning is printed only once.
