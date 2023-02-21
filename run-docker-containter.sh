@@ -37,6 +37,7 @@ if [ ! `docker ps -f name=$DOCKER_CONTAINER_NAME -q` ]; then
     --env QT_X11_NO_MITSHM=1 \
     $hardware_acceleration \
     --privileged \
+    --device=/dev/video0:/dev/video0 \
     --rm $DOCKER_IMAGE_NAME
 fi
 
