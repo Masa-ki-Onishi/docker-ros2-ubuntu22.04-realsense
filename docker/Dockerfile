@@ -58,6 +58,24 @@ RUN apt-get -y install ros-humble-slam-toolbox
 RUN apt-get -y install librealsense2-dkms
 RUN apt-get -y install librealsense2-utils
 
+
+
+#音声認識関係で使うもの
+RUN apt update -y
+RUN apt install -y build-essential libbz2-dev libdb-dev \
+  libreadline-dev libffi-dev libgdbm-dev liblzma-dev \
+  libncursesw5-dev libsqlite3-dev libssl-dev \
+  zlib1g-dev uuid-dev tk-dev
+#RUN apt install -y python-dev
+#RUN apt-get install -y python-gnuradio-audio-portaudio
+RUN apt install -y libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0
+RUN apt-get install -y python3-pyaudio
+#RUN pip install -y PyAudio
+RUN apt update -y
+
+RUN pip install SpeechRecognition
+
+
 ##
 RUN apt-get -y install git
 RUN apt-get -y install mlocate
