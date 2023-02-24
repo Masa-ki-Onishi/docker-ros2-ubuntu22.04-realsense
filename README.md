@@ -1,13 +1,13 @@
 # docker-ros2
-ROS2(Foxy)をDockerで動かす。  
+ROS2(humble)をDockerで動かす。  
 GUIも使える。
 
 ## 実行環境
 Dockerがインストールされた任意のバージョンのUbuntuやWSL(Windows)。
 
 ## 内部仕様
-- Ubuntu20.04
-- ROS foxy desktop full
+- Ubuntu22.04
+- ROS humble desktop full
 
 ## 開発方法
 1. (Docker入っていないなら)```./install-docker.sh```
@@ -15,7 +15,7 @@ Dockerがインストールされた任意のバージョンのUbuntuやWSL(Wind
 1. home/catkin_ws/srcに開発したパッケージを設置
 1. run-docker-container.shに使うセンサを接続するよう記述
 1. ```./build-docker-image.sh```を実行。
-1. ```./run-docker-container.sh```を実行。プロンプトの@以降がros2になる。
+1. ```./run-docker-containter.sh```を実行。プロンプトの@以降がros2になる。
 1. ```terminator```でコンテナ内部のターミナルを起動。
 1. 動かす
 1. 終わったら./stop-docker-container.sh。必須ではない。
