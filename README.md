@@ -1,13 +1,13 @@
 # docker-ros2
-ROS2(humble)をDockerで動かす。  
+ROS2(Foxy)をDockerで動かす。  
 GUIも使える。
 
 ## 実行環境
 Dockerがインストールされた任意のバージョンのUbuntuやWSL(Windows)。
 
 ## 内部仕様
-- Ubuntu22.04
-- ROS humble desktop full
+- Ubuntu20.04
+- ROS foxy desktop full
 
 ## 開発方法
 1. (Docker入っていないなら)```./install-docker.sh```

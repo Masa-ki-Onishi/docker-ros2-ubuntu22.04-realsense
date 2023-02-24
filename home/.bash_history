@@ -306,3 +306,169 @@ ls
 cat testtxt
 realsense-viewer
 realsense-viewer 
+terminator 
+chmod 777 /dev/ttyUSB0
+realsense-viewer 
+terminator 
+rviz2
+realsense-viewer 
+
+pip3 list
+python --version
+python3 --version
+pip list
+pip install SpeechRecognition
+python3 -m speech_recognition
+realsense-viewer 
+lsusb
+apt-get install lsusb
+apt install usbutills
+apt install usbuti
+apt-get install usbuti
+yum install -y pciutils
+lsusb
+usbipd
+ls
+lsusb
+install -dm755 /usr/share/hwdata/ && wget http://www.linux-usb.org/usb.ids -O /usr/share/hwdata/usb.ids
+realsense-viewer 
+sudo less /etc/passwd
+usermod -G sudo masaki
+cat /etc/group | grep masaki
+gnome-control-center
+fdisk -l
+ls
+cd testbox/
+ls
+cat testtxt 
+cd
+realsense-viewer 
+rviz2 
+python3 -m speech_recognition
+apt install --reinstall gnome-control-center
+sudo apt install --reinstall gnome-control-center
+gnome-control-center
+terminator 
+gnome-control-center
+gnome-control-center
+terminator 
+realsense-viewer 
+python3 -m speech_recognition
+terminator 
+python3 -m speech_recognition
+pip list
+pip3 list
+pip list
+pip install portaudio
+pip3 install portaudio
+sudo pip3 install portaudio
+pip3 install portaudio
+pip install pipwin
+pipwin install pyaudio
+
+pip pipwin install portaudio
+
+apt update
+apt upgrade
+pipwin install portaudio
+pip3 install portaudio
+realsense-viewer 
+python3 -m speech_recognition
+realsense-viewer 
+python3 -m speech_recognition
+realsense-viewer 
+python3 -m speech_recognition
+portaudio
+pip3 list
+python3 -m speech_recognition
+realsense-viewer 
+python3 -m speech_recognition
+pip list
+python3 -m speech_recognition
+realsense-viewer 
+python3 -m speech_recognition
+realsense-viewer 
+python3 -m speech_recognition
+pip3 install numpy matplotlib
+python3 -m speech_recognition
+pip3 install numpy matplotlib
+python3 -m speech_recognition
+ls /dev/
+cd /dev/snd
+ls
+ls /dev/
+cd /dev/snd
+ls
+cd /dev/snd
+ls
+cd /dev/snd
+ls
+ls -a
+cd /dev/snd
+ls
+cd ../
+ls
+cd snd
+ls
+cd /dev/snd
+ls
+cd
+ls etc/
+ls /etc/
+cd /dev/snd
+pwd
+cd
+docker 
+docker images
+cd /dev/snd
+ls
+cd /dev/snd
+ls
+vim aho
+ls
+vim txt
+ls
+ls /dev/snd
+chmod 777 /dev/snd
+chmod 777 /dev/snd/by-id
+chmod 777 /dev/ttyUSB0
+cd /dev/
+ls
+cd usb
+ls
+cd ../
+cd
+ls -l /dev/snd/
+ls -l /dev/video0/
+ls -l /dev/
+pip3 install numpy matplotlib
+python3 -m speech_recognition
+ls -l /dev/snd/
+realsense-viewer 
+ls -l /dev/snd/
+realsense-viewer 
+python3 -m speech_recognition
+ls -l /dev/snd/
+python3 -m speech_recognition
+apt install python-dev
+apt install libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0
+sudo apt install libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0
+python3 -m speech_recognition
+realsense-viewer 
+ls -l /dev/snd/
+realsense-viewer 
+python3 -m speech_recognition
+realsense-viewer 
+cd /dev/
+ls
+cd
+realsense-viewer 
+python3 -m speech_recognition
+realsense-viewer 
+python3 -m speech_recognition
+realsense-viewer 
+realsense-viewer 
+python3 -m speech_recognition
+terminator 
+realsense-viewer 
+python3 -m speech_recognition
