@@ -44,8 +44,10 @@ RUN apt clean -y && apt update -y
 
 RUN add-apt-repository "deb https://librealsense.intel.com/Debian/apt-repo $(lsb_release -cs) main" -u
 
+
 # 使いたいパッケージのインストール
 # RUN apt-get -y install (ここに使いたいパッケージを列挙する)
+RUN apt-get -y install ros-humble-gazebo-*
 RUN apt-get -y install ros-humble-gazebo-ros-pkgs 
 RUN apt-get -y install ros-humble-cartographer 
 RUN apt-get -y install ros-humble-cartographer-ros
@@ -53,7 +55,15 @@ RUN apt-get -y install ros-humble-navigation2
 RUN apt-get -y install ros-humble-nav2-bringup
 RUN apt-get -y install ros-humble-dynamixel-sdk
 RUN apt-get -y install ros-humble-turtlebot3*
+RUN apt-get -y update
+RUN apt-get -y upgrade
+
 RUN apt-get -y install ros-humble-slam-toolbox
+RUN apt-get -y install ros-humble-ros2-control
+RUN apt-get -y install ros-humble-ros2-controllers
+RUN apt-get -y install ros-humble-gripper-controllers
+RUN apt-get -y install ros-humble-moveit
+RUN apt-get -y install ros-humble-hls-lfcd-lds-driver
 
 RUN apt-get -y install librealsense2-dkms
 RUN apt-get -y install librealsense2-utils
@@ -75,10 +85,19 @@ RUN apt update -y
 
 RUN pip install SpeechRecognition
 
+RUN pip3 install git+https://github.com/openai/whisper.git
+RUN pip3 install soundfile
 
 ##
 RUN apt-get -y install git
 RUN apt-get -y install mlocate
+
+#turtlebot3のパッケージをつくっておく
+RUN mkdir -p turtlebot3_ws/src
+WORKDIR turtlebot3_ws/src
+RUN git clone -b humble-jp-devel https://github.com/ROBOTIS-JAPAN-GIT/turtlebot3_simulations_jp_custom.git
+WORKDIR turtlebot3_ws
+RUN colcon build --symlink-install
 
 # aptのキャッシュを削除してイメージの容量削減
 RUN rm -rf /var/lib/apt/lists/
